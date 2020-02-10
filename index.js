@@ -13,7 +13,7 @@ const server = http.createServer(requestHandler);
 const port = process.env.PORT
 server.listen(port, (err) => {
   if (err) {
-    return console.error('Something bad happened', err);
+    return console.error('Something bad happened :(', err);
   }
 
   console.log(`Server is accepting requests... on port: ${port}`);
