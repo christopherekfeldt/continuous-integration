@@ -5,6 +5,18 @@ jobs:
       - image: circleci/node:10.2.1 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - run: npm i 
-      - run: npm test
-      - run: npm start
+      - run: 
+          name: install
+          command: npm i 
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+      - run: 
+          name: test
+          command: npm test
+      - run: 
+          name: start
+          command: npm start
+      - save_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
