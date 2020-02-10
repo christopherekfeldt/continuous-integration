@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "echo": "echo \"Hello world!\"",
+    "echo": "echo \"Hello world! Christopher är bäst!! \"",
     "test": "jest"
   },
   "repository": {
