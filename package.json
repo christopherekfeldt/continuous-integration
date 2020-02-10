@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/christopherekfeldt/continuous-integration#readme",
   "devDependencies": {
-    "dotenv": "^8.2.0",
     "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }
