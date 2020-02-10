@@ -1,0 +1,20 @@
+{
+  "name": "continuous-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo": "echo \"Hello world!\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherekfeldt/continuous-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherekfeldt/continuous-integration/issues"
+  },
+  "homepage": "https://github.com/christopherekfeldt/continuous-integration#readme"
+}
